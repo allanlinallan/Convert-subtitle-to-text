@@ -1,0 +1,4 @@
+cd d:\ai\subtitle_project
+conda create --name subtitle_env python=3.10
+conda activate subtitle_env
+pip install pysrt
