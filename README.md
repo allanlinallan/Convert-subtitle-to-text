@@ -84,6 +84,27 @@ Miniconda 安裝包已內含 Python 核心，因此您「不需要」另外去 P
 
 2. 當看到「✅ 建檔完成」且資料夾中出現 stock_db.csv，安裝即完成。
 
+## ⚠️ 免責聲明 (Disclaimer)
+
+**本專案僅供程式開發研究與學術交流使用，並非投資建議。**
+**This project is for educational and research purposes only and does not constitute financial advice.**
+
+1.  **不保證獲利 (No Guarantee of Profit)**：
+    本程式使用的策略與參數（如 MACD、布林通道等）僅基於歷史數據回測，**過去的績效不代表未來的表現**。金融市場具有高度不確定性，使用者應自行評估風險。
+2.  **風險自負 (Use at Your Own Risk)**：
+    使用本程式產生的任何交易損益、資金損失或系統錯誤（如網路斷線、API 延遲、報價錯誤等），開發者 **不承擔任何法律責任**。請務必在實盤操作前做好充分的風險控管。
+3.  **無須證券投資顧問執照 (Not Investment Advice)**：
+    本程式碼僅提供技術分析工具的自動化實作範例，不涉及個股推薦或買賣價位指導。
+4.  **資料來源 (Data Source)**：
+    本專案使用 `yfinance` 獲取數據，數據來源為 Yahoo Finance。請遵守其服務條款，數據僅供個人參考，可能存在延遲或誤差。
+
+---
+
+## 🔒 安全提醒 (Security Warning)
+
+* 請勿將您的 **LINE Channel Access Token** 或 **User ID** 上傳至公開的 GitHub 儲存庫。
+* 建議使用環境變數 (`.env` 檔案) 來管理您的敏感資訊。
+
 ===================================================================
 
 執行程式 請參考
